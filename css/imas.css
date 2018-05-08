@@ -1,0 +1,103 @@
+*{margin: 0; padding: 0; box-sizing: border-box;font-family:'NanumSquare', sans-serif; text-align: center;}
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+
+a {text-decoration: none;color:inherit;}
+li {list-style: none;}
+body,html {width:100%; height: 100%;}
+button { border: 0; cursor: pointer; outline: none;}
+
+/*wrap*/
+#wrap {width:100%; height: 100%;}
+
+/*hader*/
+#header{width: 100%; height: 100px; position: fixed; z-index: 99;top:0;}
+.logo {margin: 0 auto; display: none;}
+.logo.shown {display: block;}
+
+/*section nav*/
+.main_nav {position: fixed; right: 30px; top: 45%; z-index: 99;}
+.main_nav li {width: 15px; height: 15px; margin-bottom :15px; border-radius: 50%; background: #999; cursor: pointer;}
+.main_nav li:hover {background: #30ebc0;}
+.main_nav li>a>div{width: 15px; height: 15px;}
+.logologo{position: absolute; z-index: 99; left: calc(50% - 210px); width: 1wh;margin-top:20px;}
+
+/*one section*/
+.one{width: 100%; height: 105vh;background-image: url("../img/title_back.png");}
+.member {width: calc(100% / 13); height: 100%; float:left;overflow:hidden;position: relative; background-image: url("../img/title_back.png");background-size: contain;}
+.member img{width:160%;position: absolute;left:-20%; bottom:0px;}
+.sung{font-size:1.7vw; text-align: left;font-weight: 900;color:white; margin-left:2%;bottom:36vw; position: absolute;}
+.sung span{font-weight: normal;}
+#a_1{background-color: #0eb76e;}
+#a_2{background-color: #5c6164;}
+#a_3{background-color: #f2accb;}
+#a_4{background-color: #fee743;}
+#a_5{background-color: #f1a848}
+#a_6{background-color: #0089cf}
+#a_7{background-color: #e53d35;}
+#a_8{background-color: #b5d75f;}
+#a_9{background-color: #fee745;}
+#a_10{background-color: #dbe9e9;}
+#a_11 {background-color: #0fb3ba;}
+#a_12 {background-color: #9152a9}
+#a_13 {background-color: #b6127b}
+
+/*two section*/
+.two {width: 100%; height: 820px; position: absolute; top: 1080px;}
+.two_tit {font-size: 40px; text-align: center; padding-top: 50px; font-weight: normal; letter-spacing: 15px;}
+.two_tit > span {font-size: 40px; display: inline-block; color: #30ebc0}
+
+.club {width: 600px; height: 700px; margin: 0 auto; padding-top: 50px;}
+.club li {float:left; width: 300px;  height: 300px; text-align: center;}
+.club li h3 {font-size: 24px; margin-bottom: 10px; color: #30ebc0;}
+.club li img {width: 167px; height: 165px; margin-bottom: 20px;}
+.club li img:hover {transform: rotateY(30deg);}
+
+/*three section*/
+.three {width: 100%; height: 820px; position: absolute; top: 1970px;}
+.th {width: 55%; margin: 0 auto; margin-top: 150px;}
+.th_img {width: 280px; float: left;}
+.th_text {float: right; margin-top: 160px;}
+.th_text > h3 {font-size: 35px; color: #30ebc0; margin-bottom: 20px;}
+.th_text > h4 {font-size: 30px; margin-top: 20px; margin-bottom: 20px;}
+
+.th_mainimg{width: 1580px; clear: both; margin: 0 auto;}
+.th_mainimg img {clear: both; width: 500px; height: 250px; margin-top: 60px;}
+
+
+/*four section*/
+.four {width: 100%; height: 820px; position: absolute; top: 3010px;}
+.fo {width: 55%; margin: 0 auto; margin-top: 150px;}
+.fo_img {width: 700px; float: right;}
+.fo_text {float: left; margin-top: 160px;}
+.fo_text > h3 {font-size: 35px; color: #30ebc0; margin-bottom: 20px;}
+.fo_text > h4 {font-size: 30px; margin-top: 20px; margin-bottom: 20px;}
+
+.fo_mainimg{width: 1580px; clear: both; margin: 0 auto;}
+.fo_mainimg img {clear: both; width: 500px; height: 250px; margin-top: 60px;}
+
+
+/*five section*/
+.five {width: 100%; height: 820px; position: absolute; top: 3900px;}
+.fi {width: 55%; margin: 0 auto; margin-top: 150px;}
+.fi_img {width: 280px; float: left;}
+.fi_text {float: right; margin-top: 160px;}
+.fi_text > h3 {font-size: 35px; color: #30ebc0; margin-bottom: 20px;}
+.fi_text > h4 {font-size: 30px; margin-top: 20px; margin-bottom: 20px;}
+
+.fi_mainimg{width: 1580px; clear: both; margin: 0 auto;}
+.fi_mainimg img {clear: both; width: 500px; height: 250px; margin-top: 60px;}
+
+/*six section*/
+.six {width: 100%; height: 820px; position: absolute; top: 4920px;}
+.si {width: 55%; margin: 0 auto; margin-top: 150px;}
+.si_img {width: 700px; float: right;}
+.si_text {float: left; margin-top: 160px;}
+.si_text > h3 {font-size: 35px; color: #30ebc0; margin-bottom: 20px;}
+.si_text > h4 {font-size: 30px; margin-top: 20px; margin-bottom: 20px;}
+
+.si_mainimg{width: 1580px; clear: both; margin: 0 auto;}
+.si_mainimg img {clear: both; width: 500px; height: 250px; margin-top: 60px;}
+
+/*footer*/
+footer {width: 100%; height: 60px; background-color: #393939; position: absolute; top: 5920px;}
+footer > p {color: #fff; text-align: center; line-height: 60px;}
